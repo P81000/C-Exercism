@@ -2,8 +2,6 @@
 #define DARTS_H
 
 #include <stdlib.h>
-#include <math.h>
-#include <stdbool.h>
 
 typedef struct {
     float x;
@@ -11,6 +9,5 @@ typedef struct {
 } coordinate_t;
 
 unsigned int score(coordinate_t pos);
-bool is_inside(coordinate_t pos, int radius);
 
 #endif
